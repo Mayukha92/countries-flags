@@ -44,7 +44,7 @@ function App() {
       console.log("Data Fetched successfully");
 
     }catch (error) {
-    console.error('Error Fetching Data: ', error);
+    console.error("Error fetching data: ", error);
   }
   };
   useEffect(()=>{
